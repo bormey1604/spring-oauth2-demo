@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:     #go to https://console.cloud.google.com/welcome
+            client-id: 864121187201-31cv0p1tode9m65lcgr8fsu08p1ekeua.apps.googleusercontent.com
+            client-secret: ${CLIENT_SECRET}
+          github:
+            client-id: Ov23lioYdZWkS6Z50sFf
+            client-secret: ${CLIENT_SECRET}
